@@ -1003,11 +1003,14 @@ a {
 }
 
 .modal-input:focus,
-.modal-comment:focus {
+.modal-input:hover,
+.modal-comment:focus,
+.modal-comment:hover {
     border-color: var(--accent-color);
 }
 
-.modal-input:focus + .input-icon {
+.modal-input:focus + .input-icon,
+.modal-input:hover +.input-icon {
     fill: var(--accent-color);
 }
 
