@@ -1010,7 +1010,7 @@ a {
 }
 
 .modal-input:focus + .input-icon,
-.modal-input:hover +.input-icon {
+.modal-input:hover + .input-icon {
     fill: var(--accent-color);
 }
 
